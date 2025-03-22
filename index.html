@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | Tumbaga</title>
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Bootstrap 5.3.3 CSS & JS -->
+		<link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css" />
+		<script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Bootstrap Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+		<!-- JQuery -->
+		<script src="libraries/jquery/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center sticky-top">
+			<ul class="nav nav-underline">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link active" aria-current="page">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+						aria-expanded="false">Projects</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a class="dropdown-item" href="projects/portal/details.html">Student Portal</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">Blog Website</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a href="about.html" class="nav-link">About</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="hero text-secondary px-4 py-5 text-center">
+			<img src="images/davis.jpg" height="200" width="200" alt="Davis's Photo" class="rounded-circle">
+			<div class="pt-4">
+				<span class="fs-5 text-white">
+					Davis Tumbaga
+					<br>
+					3rd Year IT Student
+					<br>
+					CvSU Silang Campus
+				</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- Description -->
+			<div id="description">
+				<div class="px-4 my-4 text-center">
+					<div class="col-lg-8 mx-auto">
+						<p class="fs-5 mb-4">
+							I’m a 20-year-old IT student in my 3rd year, passionate about web development, especially
+							backend engineering. I love solving complex problems and building efficient systems. When
+							I’m not coding, you’ll find me
+							gaming and exploring new tech. Let’s create something awesome together!
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Hobbies & Interests -->
+			<div id="interests">
+				<div class="">
+					<h1 class="text-center">Hobbies & Interests</h1>
+					<div class="row py-4">
+						<div class="col-sm-6 col-md-3">
+							<h3 class="text-center fw-bold">Gaming</h3>
+							<p>
+								I have a deep passion for gaming that has evolved over the years. When I was younger, I
+								was eager to enjoy rhythm games
+								like Geometry Dash, osu!, and Piano Tiles. As I grew older, my interests shifted towards
+								MOBA, FPS, and story-driven
+								games like God of War and Genshin Impact.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<h3 class="text-center fw-bold">Web Development</h3>
+							<p>
+								I’m also passionate about web development. I’ve been developing websites mainly for
+								university activities and projects,
+								working with technologies like HTML, CSS, JavaScript, and PHP. I also explore frameworks
+								such as Laravel and React to
+								build more dynamic and efficient web applications.
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<h3 class="text-center fw-bold">Music</h3>
+							<p>
+								Music has always been a huge part of my life. I love listening to emo, punk rock, and
+								metal bands that bring energy and
+								emotion to every track. Some of my favorites include My Chemical Romance, Bring Me The
+								Horizon, Slipknot, and Linkin
+								Park. Their music fuels my creativity, whether I’m coding, gaming, or just unwinding.
+								There’s nothing like a good
+								playlist to set the mood!
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<h3 class="text-center fw-bold">PC Building</h3>
+							<p>
+								Building and customizing PCs is something I really enjoy. I love researching the best
+								components, optimizing
+								performance, and assembling rigs that suit different needs—whether it’s for gaming,
+								development, or productivity.
+								There's something satisfying about picking the perfect parts and seeing everything come
+								together. I’m always on the
+								lookout for new hardware trends and ways to get the most out of a build!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Projects -->
+			<div id="projects">
+				<h1 class="text-center">Projects</h1>
+				<div class="row py-4">
+					<div class="col">
+						<div class="card" style="width: 18rem;">
+							<img src="images/portal/login.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Student Portal (System Analysis & Design Project)</h5>
+								<p class="card-text">
+									Language: PHP
+									<br>
+									Frameworks: Laravel & Bootstrap
+
+								</p>
+								<a href="/projects/portal/details.html" class="btn btn-primary stretched-link">See
+									Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card" style="width: 18rem;">
+							<img src="..." class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk of the card's
+									content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card" style="width: 18rem;">
+							<img src="..." class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk of the card's
+									content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card" style="width: 18rem;">
+							<img src="..." class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk of the card's
+									content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- Footer -->
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<div class="col-md-4 d-flex align-items-center">
+					<span class="mb-3 mb-md-0 text-body-secondary">&copy; 2025 Davis Tumbaga</span>
+				</div>
+
+				<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.facebook.com/davistumbaga24" target="_blank">
+							<i class="bi bi-facebook"></i>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.instagram.com/tendo_exo/" target="_blank">
+							<i class="bi bi-instagram"></i>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://github.com/DevWithDavis-404" target="_blank">
+							<i class="bi bi-github"></i>
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+
+</html>
